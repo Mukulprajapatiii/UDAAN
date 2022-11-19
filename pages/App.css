@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+  }
+
+/* home */
+
+.home-head{
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.head{
+    margin-right: 800px;
+}
+
+.home-text{
+    margin: 10px;
+    color: black;
+    width: 500px;
+}
+
+/* Footer */
+.footer-main{
+    color: black;
+    background-image: url(./Images/Footer.png);
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  .abc{
+    height: 40vh;
+  }
+  
+  .footer-cont{
+    background-color: rgba(255, 255, 255, 0.61);
+    backdrop-filter: blur(5px);
+  }
+
+  .footer-logo{
+    margin: 5px;
+    font-size: 50px;
+  }
+  
+  .footer-text{
+    margin: 0px 200px;
+  }
+  
+  .reg-sm-icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 40px 15px;
+  }
+  
+  .reg-links a{
+    margin: 35px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .reg-contact-img{
+    width: 45px;
+    height: 45px;
+    margin:10px;
+  } 
+  
+  .reg-contact-main{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .reg-contact{
+    margin: 70px 40px 10px 80px; 
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footer-rights{
+    margin: 60px 250px;
+  }
+
+  /* About us */
+
+  .about-us{
+  
+    height: 110vh;
+    background-image: url(./Images/about.png);
+  }
+  
+  .about-head{
+    color: black;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  .about-text{
+    color: black;
+    font-size: 22px;
+    margin: 8px 70px 100px 70px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.61);
+    backdrop-filter: blur(5px);
+  }
+
+/* register */
+
+.register-main{
+  background-image: url(./Images/plane.png);
+  height: 115vh;
+  text-align: center;
+}
+
+.reg-head{
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    padding-top: 300px;
+}
+
+.reg-cont{
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding-left: 90px;
+    padding-top: 30px;
+    border: 1px solid black;
+    width: 600px;
+    margin-left: 500px;
+}
+
+.reg-btn{
+    border: 2px solid rgb(0, 101, 24);
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    margin-left: 160px;
+}
+
+.hero-cont{
+  color: black;
+  margin-bottom: 600px;
+  margin-right: 900px;
+}
+
+.hero-main{
+    background-image: url(./Images/background.png);
+    
+}
+
+.user-reg{
+  background-image: url(./Images/Footer.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  color: black;
+  
+}
+
+.user-reg-box{
+  border: 1px solid black;
+  width: 500px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 370px;
+  background-color: rgba(255, 255, 255, 0.61);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  width: 800px;
+  height: 370px;
+}
+
+.user-reg-btn{
+  background-color: black;
+  color: white;
+  margin: 40px;
+  padding: 2px 20px;
+  border-radius: 4px;
+  width: 250px;
+  height: 50px;
+}
+
+.user-reg-btn:hover{
+  background-color: black;
+  color: white;
+  margin: 40px;
+  padding: 2px 20px;
+  border-radius: 4px;
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.user-reg-head{
+  font-size: 50px;
+}
+
+.user-reg-inp{
+  width: 300px;
+  height: 40px;
+  padding: 2px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+
+.result-main{
+  height: 100vh;
+}
+
+
+.hero{
+
+  background-image: url(./Images/Rectangle\ 3.png);
+  background-size:275vh;
+
+  height: 150vh;
+}
+
+.cont-1 h1 {
+
+  font-weight: 900;
+  word-spacing: 8px;
+  letter-spacing: 1px;
+  font-size: 55px;
+  margin: 200px 10px 0px 0px;
+}
+
+.cont-2 p{
+
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.start-btn{
+  background-color: black;
+  color: aliceblue;
+  font-size: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0px;
+  
+}

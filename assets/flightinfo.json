@@ -1,0 +1,10 @@
+[
+    {
+        "flightNumber": "BD6745",
+        "departure": "New Delhi(DEL)",
+        "departureTime": "7:30",
+        "arrival": "Bengaluru(BLR)",
+        "arrivalTime": "9:30",
+        "airlines": "Indigo"
+    }
+]
